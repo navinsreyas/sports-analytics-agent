@@ -1,0 +1,45 @@
+# Secrets — NEVER commit these
+.env
+neon key.txt
+
+# Personal study documents -- not for public repo
+FOR_ME.md
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Raw data files (too large for git)
+*.csv
+*.pdf
+sportsdata/football_matches/
+
+# Generated databases (auto-rebuilt by setup scripts)
+chroma_db/
+sportsdata/chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Streamlit cache
+.streamlit/
+
+# Claude IDE local settings
+.claude/
